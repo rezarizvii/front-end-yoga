@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="yoga.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="yoga.js"></script>
+	</head>
+	
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+				<div class="container">
+					<div class="navbar-header">
+						<a id="logo" class="navbar-brand ms-auto" href="#home">
+							<img src="images/logo.png" alt="Logo" class="img-fluid"/>
+						</a>
+						<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+							<div id="bars" class="container" onclick="myFunction(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse justify-content-end" id="menu">
+						<ul id="navbar-right" class="navbar-nav mb-nav">
+							<li class="nav-item">
+								<a id="link" class="active nav-link" href="#home">
+									<strong>Home</strong>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a id="link" class="nav-link" href="#about-sec"><strong>About</strong></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a id="link" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<Strong>Poses</strong>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a id="link" class="dropdown-item" href="#poses-types-standing"><strong>Standing Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="#poses-types-balancing"><strong>Balancing Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="#poses-types-backbend"><strong>Backbend Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="#poses-types-seated"><strong>Seated Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="#poses-types-resting"><strong>Rested & Supine Pose</strong></a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a id="link" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<strong>Policy</strong>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a id="link" class="dropdown-item" href="policy.html"><strong>Privacy Policy</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="policy.html"><strong>Terms and Conditions</strong></a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a id="link" class="nav-link" href="contact.html"><strong>Contact</strong></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<section>
+			<div id="home" class="carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-indicators">
+					<button class="swiper-pagination-bullet active" data-target="#home" data-slide-to="0" role="button" aria-current="true" aria-label="Slide 1"></button>
+					<button class="swiper-pagination-bullet" data-target="#home" data-slide-to="1" role="button" aria-current="true" aria-label="Slide 2"></button>
+					<button class="swiper-pagination-bullet" data-target="#home" data-slide-to="2" role="button" aria-current="true" aria-label="Slide 3"></button>
+					<button class="swiper-pagination-bullet" data-target="#home" data-slide-to="3" role="button" aria-current="true" aria-label="Slide 4"></button>
+					<button class="swiper-pagination-bullet" data-target="#home" data-slide-to="4" role="button" aria-current="true" aria-label="Slide 5"></button>
+					<button class="swiper-pagination-bullet" data-target="#home" data-slide-to="5" role="button" aria-current="true" aria-label="Slide 6"></button>
+					<button class="swiper-pagination-bullet" data-target="#home" data-slide-to="6" role="button" aria-current="true" aria-label="Slide 7"></button>
+				</div>
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img id="carousel-img" src="images/banners/yogaBanner1.jpg" class="d-block w-100" alt="image1" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="carousel-item">
+						<img id="carousel-img" src="images/banners/yogaBanner2.jpg" class="d-block w-100" alt="image2" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="carousel-item">
+						<img id="carousel-img" src="images/banners/yogaBanner3.jpg" class="d-block w-100" alt="image3" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="carousel-item">
+						<img id="carousel-img" src="images/banners/yogaBanner4.jpg" class="d-block w-100" alt="image3" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="carousel-item">
+						<img id="carousel-img" src="images/banners/yogaBanner5.jpg" class="d-block w-100" alt="image3" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="carousel-item">
+						<img id="carousel-img" src="images/banners/yogaBanner6.jpg" class="d-block w-100" alt="image3" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="carousel-item">
+						<img id="carousel-img" src="images/banners/yogaBanner7.jpg" class="d-block w-100" alt="image3" style="width:100%;height:100%;"/>
+						<div class="carousel-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+							<div class="banner-btn">
+								<a class="banner-btn" href="#poses-types-standing">Discover Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="about-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-i">
+							<img src="images/about.png" class="d-block w-100 img-fluid" alt="Meditation"/>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="about-p">
+							<h1 class="about-h1">Your Spiritual Guide</h1>
+							<h1 class="about-h1"><strong class="emphasis-h1">Welcome</strong> Yoga</h1>
+							<h3 class="about-h3">A joyfull <strong class="emphasis-h3">investment</strong> in your body, mind and spirit.<h3>
+							<p class="about-para">
+								As a new yoga student, you might feel overwhelmed by the sheer number of poses and their odd-sounding names. 
+								But yoga doesn't have to be hard. If you got out of bed this morning and stretched your arms up over your head, 
+								you already did a yoga pose. And remember that your yoga practice is a lifelong pursuit—giving you plenty of time 
+								to learn scores of postures.
+							</p>
+							<p class="about-para">
+								Many basic yoga postures feel very familiar because our bodies bend and fold naturally into poses. Mindfully and 
+								with conscious breaths, learn beginning yoga poses first. It's a good idea to keep things simple when you're just 
+								starting out. The yoga poses for beginners that are outlined here are valuable enough to keep you occupied for a 
+								long time. Then, as you build your practice, you can take on more challenging poses.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section  id="poses-types-standing">
+			<div class="container">
+				<div class="row">
+					<h1 class="poses-type-heading">Yoga and <strong class="lead-poses-h1">the poses</strong> you can perform</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-6" id="poses-text">
+						<h1 class="poses-h1">Standing Pose</h1>
+						<p class="poses-para">
+							Standing poses are often done first in a yoga class to "build heat" and get you warmed up. In vinyasa/flow style yoga, 
+							standing poses are strung together to form long sequences. In Hatha classes, the standing poses may be done individually 
+							with rest between each pose.
+						</p>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="hovereffect">
+							<img id="poses-cover" src="images/covers/coverStanding.jpg" class="d-block w-100 img-fluid" alt="Standing Pose"/>
+							<div class="overlay">
+							   <a class="info" href="standing.html">Check It Out</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="bg-section" id="poses-types-balancing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="hovereffect">
+							<img id="poses-cover" src="images/covers/coverBalancing.jpg" class="d-block w-100 img-fluid" alt="Balancing Pose"/>
+							<div class="overlay">
+							   <a class="info" href="balancing.html">Check It Out</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6" id="poses-text">
+						<h1 class="poses-h1">Balancing Pose</h1>
+						<p class="poses-para">
+							Beginners' balances are an important way to build the core strength necessary for many of yoga's more advanced postures. 
+							Though balances may seem difficult at first, you will find that you can improve markedly with regular practice.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="poses-types-backbend">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" id="poses-text">
+						<h1 class="poses-h1">Backbend Pose</h1>
+						<p class="poses-para">
+							As a beginner, you will generally begin with gentle flexion and extension of the spine, eventually moving to deeper bends. 
+							Since you rarely move like this in daily life, backbends are essential for spinal health and longevity.
+						</p>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="hovereffect">
+							<img id="poses-cover" src="images/covers/coverBackbend.jpg" class="d-block w-100 img-fluid" alt="Backbend Pose"/>
+							<div class="overlay">
+							   <a class="info" href="backbend.html">Check It Out</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="bg-section" id="poses-types-seated">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="hovereffect">
+							<img id="poses-cover" src="images/covers/coverSeated.jpg" class="d-block w-100 img-fluid" alt="Seated Pose"/>
+							<div class="overlay">
+							   <a class="info" href="seated.html">Check It Out</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6" id="poses-text">
+						<h1 class="poses-h1">Seated Pose</h1>
+						<p class="poses-para">
+							Seated stretches, which often focus on stretching the hips and hamstrings, are usually done toward the end of a yoga class 
+							after the body is warm. Placing a folded blanket or a block under your seat is a good way to make yourself more comfortable 
+							in these postures.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="poses-types-resting">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" id="poses-text">
+						<h1 class="poses-h1">Resting and Supine Pose</h1>
+						<p class="poses-para">
+							It's important to get to know your resting poses, especially child's pose, which you are encouraged to do whenever you need a 
+							break during a yoga session. These resting poses continue the hip and hamstring work of the seated poses, as well as providing 
+							gentle back-bending, twisting, and inversion.
+						</p>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="hovereffect">
+							<img id="poses-cover" src="images/covers/coverResting.jpg" class="d-block w-100 img-fluid" alt="Resting Pose"/>
+							<div class="overlay">
+							   <a class="info" href="resting.html">Check It Out</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="slide-show">
+			<div class="container">
+				<div class="slide-show">
+					<div class="mySlides">
+						<div class="numbertext">1 / 6</div>
+						<img src="images/slideShow/ssw1.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">2 / 6</div>
+						<img src="images/slideShow/ssw2.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">3 / 6</div>
+						<img src="images/slideShow/ssw3.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">4 / 6</div>
+						<img src="images/slideShow/ssw4.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">5 / 6</div>
+						<img src="images/slideShow/ssw5.jpg" style="width:100%">
+					</div>
+					
+					<div class="mySlides">
+						<div class="numbertext">6 / 6</div>
+						<img src="images/slideShow/ssw6.jpg" style="width:100%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)"><i class="fa fa-arrow-left"></i></a>
+					<a class="next" onclick="plusSlides(1)"><i class="fa fa-arrow-right"></i></a>
+
+					<div class="row" id="thmb">
+						<div class="column">
+							<img class="demo cursor" src="images/slideShow/ss1.jpg" style="width:100%" onclick="currentSlide(1)">
+						</div>
+						
+						<div class="column">
+							<img class="demo cursor" src="images/slideShow/ss2.jpg" style="width:100%" onclick="currentSlide(2)">
+						</div>
+						
+						<div class="column">
+							<img class="demo cursor" src="images/slideShow/ss3.jpg" style="width:100%" onclick="currentSlide(3)">
+						</div>
+						
+						<div class="column">
+							<img class="demo cursor" src="images/slideShow/ss4.jpg" style="width:100%" onclick="currentSlide(4)">
+						</div>
+						
+						<div class="column">
+							<img class="demo cursor" src="images/slideShow/ss5.jpg" style="width:100%" onclick="currentSlide(5)">
+						</div>
+						
+						<div class="column">
+							<img class="demo cursor" src="images/slideShow/ss6.jpg" style="width:100%" onclick="currentSlide(6)">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<script>
+				let slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+					showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+					showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+					let i;
+					let slides = document.getElementsByClassName("mySlides");
+					let dots = document.getElementsByClassName("demo");
+					
+					if (n > slides.length) {
+						slideIndex = 1;
+					}
+					
+					if (n < 1) {
+						slideIndex = slides.length;
+					}
+					
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+					}
+					
+					for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+					}
+					slides[slideIndex-1].style.display = "block";
+					dots[slideIndex-1].className += " active";
+				}
+			</script>
+		</section>
+		
+		<footer class="page-footer" itemprop="footer">
+			<div id="contact" class="container">
+				<div id="footer-row" class="row d-flex">
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="footer-heading-2">Yoga For Life</h2>
+							<p id="footer-para">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind monks.
+								The monks who started stretching to attain eternal peace in the silence and the tranquility of the nature amidst 
+								the clouds and the mist and the nature.
+							</p>
+							
+							<ul class="footer-social list-unstyled mt-3">
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/Megatasktechnology/" role="button"><i class="fab fa-facebook-f"></i></a>
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://twitter.com/megatasktech" role="button"><i class="fab fa-twitter"></i></a>
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/megatasktechnologies/" role="button"><i class="fab fa-instagram"></i></a>
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/company/megatasktechnologies" role="button"><i class="fab fa-linkedin-in"></i></a>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4 ml-md-4">
+							<h2 class="footer-heading-2">Popular Links</h2>
+							<ul class="list-unstyled">
+								<li id="footer-list"><a id="footer-link" href="standing.html">Yoga | Standing Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="balancing.html">Yoga | Balancing Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="backbend.html">Yoga | Backbend Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="seated.html">Yoga | Seated Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="resting.html">Yoga | Rested Pose</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="footer-heading-2">Quick Links</h2>
+							<ul class="list-unstyled">
+								<li id="footer-list"><a id="footer-link" href="#home">Home</a></li>
+								<li id="footer-list"><a id="footer-link" href="#about-sec">About</a></li>
+								<li id="footer-list"><a id="footer-link" href="#">Classes</a></li>
+								<li id="footer-list"><a id="footer-link" href="policy.html">Privacy Policy</a></li>
+								<li id="footer-list"><a id="footer-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="footer-heading-2">Have a Questions?</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li id="footer-list"><i id="icon" class="fas fa-map-marker-alt"></i>D-21, Lane No. 3, Shaheen Bagh, Okhla, New Delhi</span></li>
+									<li id="footer-list"><i id="icon" class="fas fa-phone"></i><a id="footer-link" href="#">+91 (786) 110-786</a></i></li>
+									<li id="footer-list"><i id="icon" class="fas fa-envelope"></i><a id="footer-link" href="#">info@yogaforlife.com</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p class="mb-0">
+							Copyright ©
+							<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							all rights reserved | This template is made with 
+							<i class="fas fa-heart"></i>
+							by 
+							<a id="co-link" href="https://megatasktechnologies.com/" target="_blank">Megatask Technologies Pvt. Ltd.</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<a id="btn-back-to-top" href="#home" class="btn btn-outline-dark btn-floating btn-lg m-1 top-btn" role="button" style="display: none">
+				<i class="fas fa-arrow-up"></i>
+			</a>
+		</footer>
+	</body>
+</html>

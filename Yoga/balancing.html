@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="yoga.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="yoga.js"></script>
+	</head>
+	
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+				<div class="container">
+					<div class="navbar-header">
+						<a id="logo" class="navbar-brand ms-auto" href="index.html">
+							<img src="images/logo.png" alt="Logo" class="img-fluid"/>
+						</a>
+						<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+							<div id="bars" class="container" onclick="myFunction(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse justify-content-end" id="menu">
+						<ul id="navbar-right" class="navbar-nav mb-nav">
+							<li class="nav-item">
+								<a id="link" class="active nav-link" href="index.html">
+									<strong>Home</strong>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a id="link" class="nav-link" href="index.html#about-sec"><strong>About</strong></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a id="link" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<Strong>Poses</strong>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a id="link" class="dropdown-item" href="index.html#poses-types-standing"><strong>Standing Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="index.html#poses-types-balancing"><strong>Balancing Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="index.html#poses-types-backbend"><strong>Backbend Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="index.html#poses-types-seated"><strong>Seated Pose</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="index.html#poses-types-rested"><strong>Rested & Supine Pose</strong></a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a id="link" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<strong>Policy</strong>
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a id="link" class="dropdown-item" href="policy.html"><strong>Privacy Policy</strong></a></li>
+									<li><a id="link" class="dropdown-item" href="policy.html"><strong>Terms and Conditions</strong></a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a id="link" class="nav-link" href="contact.html"><strong>Contact</strong></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<section id="home">
+			<div class="banner">			
+				<div class="banner-inner">
+					<div class="banner-content">
+						<img id="banner-img" src="images/banners/bannerBalancing.png" class="d-block w-100" alt="image1"/>
+						<div class="banner-caption">
+							<h3 class="banner-text-sm">Lose Yourself In <strong class="lead">Ambience</strong> And <strong class="lead">Atmosphere</strong></h3>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="poses-about">
+			<div class="container">
+				<div class="row">
+					<div class="pose-heading">
+						<h1 class="poses-heading">Balancing Poses</h1>
+					</div>
+				</div>
+				
+				<div id="poses-row" class="row">
+					<div class="col-md-4">
+						<div class="card">
+							<img src="images/poses/balancing/dancer.jpg" class="d-block w-100 img-fluid" alt="">
+							<div class="card-body">
+								<h3 class="heading">Dancer Pose</h3>
+								<h3 class="asana-name">Natarajasana</h3>
+							</div>
+							<div class="content d-flex flex-column">
+								<div>
+									<p class="asana-det">Dancer Pose improves balance and focus, postural awareness, proprioception (a sense of your body’s position and movement in space), and body awareness. It can boost energy, fight fatigue, and build confidence. It strengthens your core and back muscles, and stretches your chest and shoulders.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card">
+							<img src="images/poses/balancing/chair.jpg" class="d-block w-100 img-fluid" alt="">
+							<div class="card-body">
+								<h3 class="heading">Chair Pose</h3>
+								<h3 class="asana-name">Utkatasana</h3>
+							</div>
+							<div class="content d-flex flex-column">
+								<div>
+									<p class="asana-det">Chair Pose improves balance and can build cardiovascular health and resilience. It primarily strengthens your core, thighs, and ankles.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card">
+							<img src="images/poses/balancing/toe.jpg" class="d-block w-100 img-fluid" alt="">
+							<div class="card-body">
+								<h3 class="heading">Hand-To-Big-Toe Pose</h3>
+								<h3 class="asana-name">Utthita Hasta Padangusthasana</h3>
+							</div>
+							<div class="content d-flex flex-column">
+								<div>
+									<p class="asana-det">Extended Hand-to-Big Toe Pose improves balance, postural and body awareness, and can boost energy and fight fatigue. It can help build confidence and empowerment, improves posture, and counteracts the effects of prolonged sitting and doing computer work.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="poses-row" class="row">
+					<div class="col-md-4">
+						<div class="card">
+							<img src="images/poses/balancing/handstan.jpg" class="d-block w-100 img-fluid" alt="">
+							<div class="card-body">
+								<h3 class="heading">Handstand</h3>
+								<h3 class="asana-name">Adho Mukha Vrksasana</span></h3>
+							</div>
+							<div class="content d-flex flex-column">
+								<div>
+									<p class="asana-det">Handstand builds strength in the shoulders, back, and abdomen, while uplifting your mood and increasing confidence.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card">
+							<img src="images/poses/balancing/plank.jpg" class="d-block w-100 img-fluid" alt="">
+							<div class="card-body">
+								<h3 class="heading">Plank Pose</h3>
+								<h3 class="asana-name">Kumbhakasana</h3>
+							</div>
+							<div class="content d-flex flex-column">
+								<div>
+									<p class="asana-det">Plank works the entire body effectively in one static position. Hold this asana for 30 seconds a few times a day, and you will strengthen your abdominals, hands, wrists, arms, shoulders, back, core, glutes and legs.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="card">
+							<img src="images/poses/balancing/eagle.jpg" class="d-block w-100 img-fluid" alt="">
+							<div class="card-body">
+								<h3 class="heading">Eagle Pose</h3>
+								<h3 class="asana-name">Garudasana</h3>
+							</div>
+							<div class="content d-flex flex-column">
+								<div>
+									<p class="asana-det">Eagle Pose requires careful focus. You must bend your knees, cross your left thigh over your right, hook the top of your foot behind your right calf, spread the scapula and snug your right elbow into the crook of your left, bring your palms to touch, lift your elbows, and stretch your fingers towards the ceiling. Phew!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="page-footer" itemprop="footer">
+			<div id="contact" class="container">
+				<div id="footer-row" class="row d-flex">
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="footer-heading-2">Yoga For Life</h2>
+							<p id="footer-para">
+								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind monks.
+								The monks who started stretching to attain eternal peace in the silence and the tranquility of the nature amidst 
+								the clouds and the mist and the nature.
+							</p>
+							
+							<ul class="footer-social list-unstyled mt-3">
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/Megatasktechnology/" role="button"><i class="fab fa-facebook-f"></i></a>
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://twitter.com/megatasktech" role="button"><i class="fab fa-twitter"></i></a>
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/megatasktechnologies/" role="button"><i class="fab fa-instagram"></i></a>
+								<a id="social-btns" class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/company/megatasktechnologies" role="button"><i class="fab fa-linkedin-in"></i></a>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4 ml-md-4">
+							<h2 class="footer-heading-2">Popular Links</h2>
+							<ul class="list-unstyled">
+								<li id="footer-list"><a id="footer-link" href="standing.html">Yoga | Standing Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="#home">Yoga | Balancing Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="backbend.html">Yoga | Backbend Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="seated.html">Yoga | Seated Pose</a></li>
+								<li id="footer-list"><a id="footer-link" href="resting.html">Yoga | Rested Pose</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="footer-heading-2">Quick Links</h2>
+							<ul class="list-unstyled">
+								<li id="footer-list"><a id="footer-link" href="index.html#home">Home</a></li>
+								<li id="footer-list"><a id="footer-link" href="index.html#about-sec">About</a></li>
+								<li id="footer-list"><a id="footer-link" href="#">Classes</a></li>
+								<li id="footer-list"><a id="footer-link" href="policy.html">Privacy Policy</a></li>
+								<li id="footer-list"><a id="footer-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md">
+						<div class="ftco-footer-widget mb-4">
+							<h2 class="footer-heading-2">Have a Questions?</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li id="footer-list"><i id="icon" class="fas fa-map-marker-alt"></i>D-21, Lane No. 3, Shaheen Bagh, Okhla, New Delhi</span></li>
+									<li id="footer-list"><i id="icon" class="fas fa-phone"></i><a id="footer-link" href="#">+91 (786) 110-786</a></i></li>
+									<li id="footer-list"><i id="icon" class="fas fa-envelope"></i><a id="footer-link" href="#">info@yogaforlife.com</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p class="mb-0">
+							Copyright ©
+							<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							all rights reserved | This template is made with 
+							<i class="fas fa-heart"></i>
+							by 
+							<a id="co-link" href="https://megatasktechnologies.com/" target="_blank">Megatask Technologies Pvt. Ltd.</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<a id="btn-back-to-top" href="#home" class="btn btn-outline-dark btn-floating btn-lg m-1 top-btn" role="button" style="display: none">
+				<i class="fas fa-arrow-up"></i>
+			</a>
+		</footer>
+	</body>
+</html>
