@@ -2,6 +2,56 @@
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\",
   "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\backbend.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\backbend.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\yoga.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\yoga.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\yoga.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\yoga.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\tnc.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\tnc.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\standing.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\standing.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\seated.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\seated.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\resting.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\resting.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\policy.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\policy.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\balancing.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\balancing.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Yoga\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -16,8 +66,160 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\index.html",
+              "RelativeDocumentMoniker": "Yoga\\index.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\index.html",
+              "RelativeToolTip": "Yoga\\index.html",
+              "ViewState": "AQIAALoBAAAAAAAAAAAAANQBAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:32:47.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "policy.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\policy.html",
+              "RelativeDocumentMoniker": "Yoga\\policy.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\policy.html",
+              "RelativeToolTip": "Yoga\\policy.html",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAIwAoBAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:37:12.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "contact.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\contact.html",
+              "RelativeDocumentMoniker": "Yoga\\contact.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\contact.html",
+              "RelativeToolTip": "Yoga\\contact.html",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwLkAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:37:21.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "balancing.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\balancing.html",
+              "RelativeDocumentMoniker": "Yoga\\balancing.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\balancing.html",
+              "RelativeToolTip": "Yoga\\balancing.html",
+              "ViewState": "AQIAANgAAAAAAAAAAAAAAPUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:39:20.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "backbend.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\backbend.html",
+              "RelativeDocumentMoniker": "Yoga\\backbend.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\backbend.html",
+              "RelativeToolTip": "Yoga\\backbend.html",
+              "ViewState": "AQIAALMAAAAAAAAAAAAvwLwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:40:59.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "resting.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\resting.html",
+              "RelativeDocumentMoniker": "Yoga\\resting.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\resting.html",
+              "RelativeToolTip": "Yoga\\resting.html",
+              "ViewState": "AQIAANUAAAAAAAAAAAAAAPUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:41:50.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "seated.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\seated.html",
+              "RelativeDocumentMoniker": "Yoga\\seated.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\seated.html",
+              "RelativeToolTip": "Yoga\\seated.html",
+              "ViewState": "AQIAANoAAAAAAAAAAAAIwPUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:42:03.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "standing.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\standing.html",
+              "RelativeDocumentMoniker": "Yoga\\standing.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\standing.html",
+              "RelativeToolTip": "Yoga\\standing.html",
+              "ViewState": "AQIAANkAAAAAAAAAAAAAAPUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:42:20.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tnc.html",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\tnc.html",
+              "RelativeDocumentMoniker": "Yoga\\tnc.html",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\tnc.html",
+              "RelativeToolTip": "Yoga\\tnc.html",
+              "ViewState": "AQIAAOkAAAAAAAAAAAAIwP8AAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:42:33.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "yoga.css",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\yoga.css",
+              "RelativeDocumentMoniker": "Yoga\\yoga.css",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\yoga.css",
+              "RelativeToolTip": "Yoga\\yoga.css",
+              "ViewState": "AQIAALcBAAAAAAAAAAAIwNMBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T12:42:45.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "yoga.js",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\yoga.js",
+              "RelativeDocumentMoniker": "Yoga\\yoga.js",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\Yoga\\yoga.js",
+              "RelativeToolTip": "Yoga\\yoga.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-04T12:43:13.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\reza.rizvi\\source\\repos\\front-end-yoga\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-04T12:43:30.93Z",
+              "EditorCaption": ""
             }
           ]
         }
